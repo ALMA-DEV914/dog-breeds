@@ -1,6 +1,6 @@
 body{
+    background-image: url("./image/dog.png");
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
 }
 .app{
     height: 100%;
@@ -14,13 +14,15 @@ body{
     padding: 12px;
 }
 .header select{
-    font-size: 1rem;
+    font-size: 1.2rem;
+    padding: 8px;
 }
 .slideshow{
     flex: 1;
     background-color: rgb(14, 12, 12);
     position: relative;
     overflow: hidden;
+    opacity: .9;
     
 }
 
@@ -59,4 +61,3 @@ body{
     }
     
 }
-

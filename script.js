@@ -19,7 +19,7 @@ function createBreedList(breedList) {
     <option>Search for a dog breed</option>
     ${Object.keys(breedList)
       .map(function (breed) {
-        return `<option>${breed}</option>`;
+        return `<option class="options">${breed}</option>`;
       })
       .join("")}
     </select>`;
