@@ -1,5 +1,6 @@
 let timer;
 let deleteFirstPhotoDelay;
+
 async function start() {
   try {
     const response = await fetch("https://dog.ceo/api/breeds/list/all");
