@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.app{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    text-align: center;
+}
+.header select{
+    font-size: 1rem;
+}
+.slideshow{
+    flex: 1;
+    background-color: rgb(14, 12, 12);
+    position: relative;
+    overflow: hidden;
+    margin: 3% 0;
+}
+
+.slide{
+    width: 50%;
+    margin: 5% auto;
+    opacity: 0;
+    transform: scale(1);
+    transition: all .9s ease-out;
+    box-shadow: 4px 4px 4px 4px rgb(104, 101, 101);
+}
+.slide:nth-last-child(2){
+    opacity: 1;
+    transform: scale(1.08);
+
+}
+.slide img{
+   width: 100%;
+   height: 100%;
+}
+
+
